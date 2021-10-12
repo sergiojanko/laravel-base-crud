@@ -1,0 +1,28 @@
+#content-section {
+    padding: 30px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.row .col {
+    height: 100%;
+}
+button {
+    display: block;
+    margin: auto;
+    color: #fff;
+    background-color: dodgerblue;
+    border: 0;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+#content-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
