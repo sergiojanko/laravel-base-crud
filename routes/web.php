@@ -14,10 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'HomeController@index')->name('home');
-Route::get('/comics', 'ComicController@index')->name('comics.index');
-Route::get('/comics/{$id}', 'ComicController@show')->name('comics.show');
-Route::get('/comics/create', 'ComicController@create')->name('comics.create');
-Route::post('/comics', 'ComicController@store')->name('comics.store');
+// Route::get('/comics', 'ComicController@index')->name('comics.index');
+// Route::get('/comics/{$id}', 'ComicController@show')->name('comics.show');
+// Route::get('/comics/create', 'ComicController@create')->name('comics.create');
+// Route::post('/comics', 'ComicController@store')->name('comics.store');
 
 
 Route::resource('comics', 'ComicController');

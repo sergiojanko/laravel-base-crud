@@ -13,5 +13,6 @@
             @csrf
             <button type="submit" class="btn btn-danger">ELIMINA</button>
         </form>
+        <a href="{{ route('comics.edit', $comic['id']-1) }}" class="btn btn-primary">MODIFICA</a>
     </section>
 @endsection
