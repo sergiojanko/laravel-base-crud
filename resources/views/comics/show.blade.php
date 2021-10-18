@@ -8,5 +8,10 @@
             <img src="{{$comic['thumb']}}" alt="">
             <figcaption>{{$comic['title']}}</figcaption>
         </figure>
+        <form method="POST" action="">
+            @method('DELETE')
+            @csrf
+            <button type="submit" class="btn btn-danger">ELIMINA</button>
+        </form>
     </section>
 @endsection
